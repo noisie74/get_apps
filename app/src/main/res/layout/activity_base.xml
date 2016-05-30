@@ -5,24 +5,16 @@
     android:orientation="vertical">
 
     <Button
-        android:orientation="horizontal"
-        android:id="@+id/get_running_apps"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="get running apps"
-        android:layout_gravity="right" />
-
-    <Button
-        android:layout_gravity="left"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/get_apps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:text="get apps" />
+        android:text="@string/button_get_apps" />
 
     <ListView
         android:id="@android:id/list"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
