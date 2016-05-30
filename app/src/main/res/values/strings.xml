@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GetApps</string>
+    <string name="button_get_apps">get apps</string>
 </resources>
